@@ -142,7 +142,7 @@ async def list_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("You have no reminders.")
         return
 
-    msg = "📋 *Your reminders:*
+    msg = "📋 *Your reminders:*\n\n"
 
 "
     for r in rows:
